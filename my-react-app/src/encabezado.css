@@ -1,0 +1,15 @@
+h1{
+    color: rgb(255, 0, 0);
+}
+h2{
+    color: rgb(0, 132, 255);
+}
+.encabezado {
+    background-color: #f0f0f0;
+}
+.logo {
+    width: 100px;
+}
+.facebook, .twitter, .instagram, .tik-tok, .whatsapp, .youtube {
+    width: 100px;
+}

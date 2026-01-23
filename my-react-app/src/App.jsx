@@ -1,6 +1,9 @@
+import Encabezado from "./encabezado";
+
 function App(){
   return (
   <div>
+    <Encabezado/>
     <h1>5A - EVND</h1>
         <h2>Alumno</h2>
         <h3>Erik Ibarra</h3>
