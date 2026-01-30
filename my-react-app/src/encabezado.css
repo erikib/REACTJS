@@ -6,10 +6,81 @@ h2{
 }
 .encabezado {
     background-color: #f0f0f0;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px 20px;
+    border-bottom: none;
 }
-.logo {
-    width: 100px;
+.logodiv{
+    justify-content: center;
+    align-items: center;
+    display: flex;
 }
-.facebook, .twitter, .instagram, .tik-tok, .whatsapp, .youtube {
-    width: 100px;
+.logodiv img{
+        width: 200px;
+    }
+
+.redes ul{
+    list-style: none;
+    gap: 8px;
+    padding: 0;
+    margin: 0;
+    align-items: center;
+}
+.redes ul li img{
+    width: 20px; 
+}
+.redes ul li:hover {
+    background-color: lightgray;
+    cursor: pointer;
+}
+
+.menudiv ul{
+    list-style: none;
+    font-size: 20px;
+    gap: 20px;
+    font-weight: bold;
+    font-size: 20px;
+    display: flex;
+    background-color: yellow;
+    padding: 10px 15px;
+    color: brown;
+    justify-content: center;
+    align-items: center;
+    border-radius: 25px;
+}
+.menudiv ul li{
+    padding: 10px;
+}
+.menudiv ul li a {
+    text-decoration: none;
+    color: inherit;
+}
+.menudiv ul li a:hover{
+    padding: 10px;
+    background-color: rgb(255, 0, 0);
+    border-radius: 15px;
+}
+
+
+
+.redesdiv{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    border-radius: 15px;
+}
+.redesdiv ul{
+  list-style: none;
+    text-decoration: none;
+    display: flex;
+}
+.redesdiv img{
+    width: 48px;
+}
+
+.redesdiv ul li a:hover{
+    border-radius: 15px;
 }

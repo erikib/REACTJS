@@ -8,34 +8,37 @@ import './encabezado.css';
 function Encabezado(){
     return(
         <div className='encabezado'>
+            <div className='logodiv'>
                 <Logo />
+            </div>
+            <div className='menudiv'>
                 <Menu/>
+            </div>
+            <div className='redesdiv'>
                 <Redes/>
-                <h2>Bienvenido a mi Sitio </h2>
+            </div>
         </div>
     );
     
 }
 
 function Logo(){
-    return(
-    <div className='Logo'>
-                <img src={miLogo} alt ="React Logo" />
-            </div>
-            );
+    return (
+        <img src={miLogo} alt="React Logo" />
+    );
 }
 
 function Menu(){
     return(
-        <nav>
+        <div>
             <ul>
-                <li>Inicio</li>
-                <li>Acerca de</li>
-                <li>Productos</li>
-                <li>Contacto</li>
-                <li>Sucursales</li>
+                <li><a href='#'>Inicio</a></li>
+                <li><a href='#'>Acerca de</a></li>
+                <li><a href='#'>Productos</a></li>
+                <li><a href='#'>Contacto</a></li>
+                <li><a href='#'>Sucursales</a></li>
             </ul>
-        </nav>
+        </div>
     )
 }
 
@@ -43,16 +46,15 @@ function Redes(){
     return(
         <div className='redes'>
            
-        <nav>
+        <div>
             <ul>
-                <li><img src={facebook} alt="Facebook" /></li>
-                <li><img src={x} alt="X" /></li>
-                <li><img src={tikTok} alt="TikTok" /></li>
-                <li><img src={whatsapp} alt="WhatsApp" /></li>
-                <li><img src={youtube} alt="Youtube" /></li>
-
+                <li><a href='#'><img src={facebook} alt="Facebook" /></a></li>
+                <li><a href='#'><img src={x} alt="X" /></a></li>
+                <li><a href='#'><img src={tikTok} alt="TikTok" /></a></li>
+                <li><a href='#'><img src={whatsapp} alt="WhatsApp" /></a></li>
+                <li><a href='#'><img src={youtube} alt="Youtube" /></a></li>
             </ul>
-        </nav>
+        </div>
          </div>
     )
 }

@@ -1,9 +1,12 @@
 import Encabezado from "./encabezado";
+import Tarjetas from "./Tarjetas";
+import './contenedorTargetas.css';
 
 function App(){
   return (
   <div>
     <Encabezado/>
+    <Tarjetas/>
     <h1>5A - EVND</h1>
         <h2>Alumno</h2>
         <h3>Erik Ibarra</h3>
